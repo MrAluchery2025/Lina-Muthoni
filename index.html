@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lina Muthoni | Front-End Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black font-[Inter]">
+  <header class="flex justify-between items-center p-6 flex-wrap">
+    <h2 class="text-2xl font-bold font-[Playfair Display]">Lina Muthoni</h2>
+    <nav class="flex gap-6 mt-4 md:mt-0">
+      <a href="about.html" class="relative group text-black font-semibold hover:underline">About</a>
+      <a href="projects.html" class="relative group text-black font-semibold hover:underline">Projects</a>
+      <a href="contact.html" class="relative group text-black font-semibold hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <section class="flex flex-col md:flex-row items-center justify-center gap-16 px-8 py-24 text-center md:text-left bg-white">
+    <div class="flex-shrink-0">
+      <div class="rounded-full overflow-hidden w-72 h-72 shadow-xl">
+        <img src="black-woman (2).jpg" alt="Lina Muthoni Profile Picture" class="w-full h-full object-cover">
+      </div>
+    </div>
+    <div class="max-w-xl">
+      <h1 class="text-5xl font-[Playfair Display] font-bold mb-6 leading-tight">Hi, I'm Lina — a Front-End Developer</h1>
+      <p class="text-lg mb-8 leading-relaxed">I design and build beautiful, user-first websites that speak clearly and work seamlessly. Focused on elegance, performance, and accessibility.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+        <a href="#" class="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-900 transition-all duration-300">Download CV</a>
+        <a href="contact.html" class="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-900 transition-all duration-300">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-sm">
+    <p>&copy; 2025 Lina Muthoni. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelector('footer p').textContent = `© ${new Date().getFullYear()} Lina Muthoni. All rights reserved.`;
+  </script>
+</body>
+</html>

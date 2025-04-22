@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Lina Muthoni</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black font-[Inter]">
+  <header class="flex justify-between items-center p-6 flex-wrap">
+    <div class="flex items-center gap-4">
+      <img src="black-woman (2).jpg" alt="Lina Profile Icon" class="w-16 h-16 rounded-full object-cover border-2 border-black shadow-md">
+      <h2 class="text-3xl font-bold font-[Playfair Display]">Lina Muthoni</h2>
+    </div>
+    <nav class="flex gap-6 mt-4 md:mt-0">
+      <a href="index.html" class="text-black font-semibold hover:underline">Home</a>
+      <a href="projects.html" class="text-black font-semibold hover:underline">Projects</a>
+      <a href="contact.html" class="text-black font-semibold hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <main class="px-6 py-20 max-w-5xl mx-auto">
+    <h1 class="text-4xl font-[Playfair Display] font-bold mb-8 text-center">About Me</h1>
+
+    <p class="text-lg leading-relaxed mb-8">
+      I'm Lina Muthoni, a passionate front-end developer based in Kenya. I specialize in creating interactive and elegant user interfaces using modern web technologies. My goal is to craft seamless digital experiences that are not only beautiful but functional and accessible to everyone.
+    </p>
+
+    <h2 class="text-2xl font-semibold mb-4">My Approach</h2>
+    <p class="mb-8 leading-relaxed">
+      With a strong eye for detail and a love for minimal design, I believe in writing clean, efficient code. Whether I’m building a landing page or a full web app, I focus on performance, responsiveness, and a delightful user experience.
+    </p>
+
+    <h2 class="text-2xl font-semibold mb-4">Technologies I Work With</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>HTML5, CSS3, JavaScript (ES6+)</li>
+      <li>Tailwind CSS, Bootstrap</li>
+      <li>React.js (learning in progress)</li>
+      <li>Version control with Git & GitHub</li>
+      <li>Basic knowledge of backend technologies</li>
+    </ul>
+  </main>
+
+  <footer class="text-center py-6 text-sm">
+    <p>&copy; 2025 Lina Muthoni. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelector('footer p').textContent = `© ${new Date().getFullYear()} Lina Muthoni. All rights reserved.`;
+  </script>
+</body>
+</html>

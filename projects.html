@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Lina Muthoni</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black font-[Inter]">
+  <header class="flex justify-between items-center p-6 flex-wrap">
+    <div class="flex items-center gap-4">
+      <img src="black-woman.jpg" alt="Lina Profile Icon" class="w-16 h-16 rounded-full object-cover border-2 border-black shadow-md">
+      <h2 class="text-3xl font-bold font-[Playfair Display]">Lina Muthoni</h2>
+    </div>
+    <nav class="flex gap-6 mt-4 md:mt-0">
+      <a href="index.html" class="text-black font-semibold hover:underline">Home</a>
+      <a href="about.html" class="text-black font-semibold hover:underline">About</a>
+      <a href="contact.html" class="text-black font-semibold hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <main class="px-6 py-20 max-w-6xl mx-auto">
+    <h1 class="text-4xl font-[Playfair Display] font-bold mb-12 text-center">My Projects</h1>
+
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+      <div class="border p-6 rounded-lg shadow-sm hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+        <p class="text-sm">A sleek and responsive portfolio site built with HTML, Tailwind CSS, and JavaScript to showcase my skills and projects.</p>
+      </div>
+      <div class="border p-6 rounded-lg shadow-sm hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">To-Do App</h3>
+        <p class="text-sm">A minimalist task management app created using vanilla JavaScript and localStorage for saving tasks offline.</p>
+      </div>
+      <div class="border p-6 rounded-lg shadow-sm hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Responsive Landing Page</h3>
+        <p class="text-sm">Designed and developed a landing page with Tailwind CSS and JavaScript animations to highlight product features.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-6 text-sm">
+    <p>&copy; 2025 Lina Muthoni. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelector('footer p').textContent = `© ${new Date().getFullYear()} Lina Muthoni. All rights reserved.`;
+  </script>
+</body>
+</html>
